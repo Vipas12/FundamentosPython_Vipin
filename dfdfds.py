@@ -1,0 +1,2 @@
+Nome = "Vipin"
+print(Nome)
