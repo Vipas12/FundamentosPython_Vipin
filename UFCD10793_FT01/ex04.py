@@ -1,5 +1,7 @@
-raio = input("Escreva o raio da circunferencis")
-raio = int (raio)
-PI=3,14
-volume = raio^3*4/3*TI
+raio = input("Escreva o raio da circunferencia")
+raio = float (raio)
+PI=float(3,14454)
+R= raio**3
+A=4/3
+volume = R*A*3,14
 print (volume)
