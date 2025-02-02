@@ -1,4 +1,4 @@
-Kms = int(input("insira nº kms percorridos"))
-Litros= int(input("insira n.º litros consumidos"))
-consumo = Kms / Litros
-print("Por litro faz", consumo, "Kms")
+kms = int(input("insira nº kms percorridos"))
+litros= int(input("insira n.º litros consumidos"))
+consumo = kms / litros
+print("Por litro faz", consumo, "kms")

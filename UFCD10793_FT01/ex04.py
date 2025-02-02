@@ -1,6 +1,7 @@
-raio = float(input("Escreva o raio da circunferencia"))
-PI=3,14454
-R= raio**3
-A=float(4/3)
-volume = R*A*3,14
+import math
+raio = float(input("Escreva o raio da circunferencia: "))
+r= raio**3
+a=float(4/3)
+pi=float(3,14)
+volume = r*a*pi
 print (volume)

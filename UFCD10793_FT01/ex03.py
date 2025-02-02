@@ -1,4 +1,3 @@
-num = input("Escreva um numero inteiro")
-num = int (num)
+num = int(input("Escreva um numero inteiro: "))
 print ("o dobro de", num , "é", num * 2)
 
