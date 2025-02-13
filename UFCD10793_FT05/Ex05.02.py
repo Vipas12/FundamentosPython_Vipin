@@ -1,17 +1,18 @@
-#Utilizando estruturas de repetição escreva um programa que mostre 
-# osresultados da tabuada de multiplicação dos números entre 1 e 10, como segue#
-
-'''
-for valor in range (1,11):
-    for numero in range (1,11):
-        print (f'{valor} x {numero} = {valor * numero}')
-'''
-
-x=1
-while x<=10:
-    y=1
-    while y<=10:
-        print(f'{x} x {y} = {x*y}')
-        y+=1
-    x+=1
-    
+'''Crie um programa para controlar listas, com as seguintes funções:
+• Adicionar elemento no início;
+• Adicionar elemento no fim;
+• Remover elemento;
+• Tamanho da lista;
+• Imprimir elementos da lista;
+• Esvaziar lista;'''
+lista=[1,2,3,4,5,6,7,8,9,10,11,12]
+lista.insert(0,8)
+print(lista) #Adicionar elemento no início;
+lista.append(8)
+print(lista) #Adicionar elemento no fim;
+lista.remove(8)
+print(lista) #Remover elemento;
+print(len(lista)) #Tamanho da lista;
+print(sum(lista)) #Imprimir elementos da lista;
+lista.clear()
+print(lista) #Esvaziar lista
