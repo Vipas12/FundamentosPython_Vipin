@@ -4,8 +4,9 @@ try:
     num2=int(input("digite o denominador: "))
     print("Resultado da divisão:", num1/num2)
 except ZeroDivisionError:
-    print("Erro: não 0possivel dividir por zero.")
+    print("Erro: não é possivel dividir por zero.")
 except ValueError:
-    print("Erro: Apenas números inteiro são permitidos")
+    print("Erro: Apenas números inteiros são permitidos")
+
 
 
