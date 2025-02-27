@@ -1,7 +1,11 @@
 def quadrado (lado):
-    print ("Área é igual a: ", lado*lado)
-    print ("Perimetro é igual a:", 4*lado)
+    Area= lado*lado
+    Perimetro= 4*lado
+    return Area, Perimetro
 
-lado=input("Digite o comprimento do lado de um quadrado: ")
+lado=int(input("Digite o comprimento do lado de um quadrado: "))
 
-print(quadrado)
+Area, Perimetro = quadrado (lado)
+
+print (f"Área:{Area}, Perímetro: {Perimetro}")
+
