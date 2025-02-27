@@ -22,7 +22,8 @@ else:
 
 #c. Imprima o número de vezes que a letra ‘O’ ocorre no texto
 print(txt.count("o"))
-#b. Peça uma palavra ao utilizador e verifique se a mesma está ou não no texto, devolvendo o resultado ao utilizador.
+#b. Peça uma palavra ao utilizador e verifique se a mesma está ou não no texto,
+# devolvendo o resultado ao utilizador.
 print( input("qual a palavra de pesquisa -") in txt)
 #d. Substitua todaa as ocorrências da letra ‘P’ no texto por ‘_’
 y=txt.replace("p","_")
