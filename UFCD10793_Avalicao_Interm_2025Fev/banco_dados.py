@@ -11,3 +11,16 @@ conn=sqlite3.connect('empresa.db')
 cursor=conn.cursor()
 
 #Criar tabela de funcionarios
+cursor.execute("""
+CREATE TABLE IF NOT EXISTS Alunos (id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nome TEXT NOT NULL,
+    idade INTEGER,
+    curso TEXT)
+""")
+
+# fechar a conexão
+conn.commit()
+conn.close()
+
+
+
