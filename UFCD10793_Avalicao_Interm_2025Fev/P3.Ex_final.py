@@ -34,6 +34,7 @@ import sqlite3
 #Criar connexão
 conn = sqlite3.connect ('empresaEx6_final.db')
 cursor=conn.cursor()
+#executar def Menu
 menu()
 
         
