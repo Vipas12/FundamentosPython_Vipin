@@ -3,10 +3,10 @@
 import csv
 
 #opçao1
-dados=[["Nome", "Idade"], ["João", 25], ["Ana", 30]]
-with open("dados.csv", "w", newline="", encoding="utf-8") as ficheiro:
-    escritor=csv.writer(ficheiro)
-    escritor.writerows(dados)
+#dados=[["Nome", "Idade"], ["João", 25], ["Ana", 30]]
+#with open("dados.csv", "w", newline="", encoding="utf-8") as ficheiro:
+#    escritor=csv.writer(ficheiro)
+#    escritor.writerows(dados)
 
 #opção2
 with open("dados.csv", "w", newline="", encoding="utf-8") as arquivo:

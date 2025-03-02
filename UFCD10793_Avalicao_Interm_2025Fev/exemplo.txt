@@ -1,0 +1,4 @@
+Teste, verificar se está a funcionar o código em python
+linha 1 - um texto
+linha 2 - texto 2
+linha 3 - terceiro texto
