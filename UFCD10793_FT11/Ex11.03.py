@@ -4,7 +4,7 @@ def calcula(dados):
     
     media=soma/len(dados)
   
-entrada=("introduz uma lista de numeros separados por espaço: ")
+entrada=input("introduz uma lista de numeros separados por espaço: ")
 
 dados=list(map(int, entrada.split())) 
 
