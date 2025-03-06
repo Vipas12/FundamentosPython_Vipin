@@ -16,3 +16,10 @@ def triangulo (lado1,lado2,lado3):
         return "Escaleno"
     else:
         return "Isósceles"
+
+
+a = float(input("Introduza medida de comprimento do lado 1!"))
+b = float(input("Introduza medida de comprimento do lado 2!"))
+c = float(input("Introduza medida de comprimento do lado 3!"))
+
+triangulo (a,b,c)
