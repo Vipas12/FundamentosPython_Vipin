@@ -2,8 +2,11 @@
 # a soma dos valores dessa lista, o número de elementos da lista e a media desses valores.
 # Implementa tratamento de exceções no teu código (try…except…else..finally).
 
-list = [1,4,6,8,45,78,99]
-print(list.soma())
-print(len.list())
-print(average.list())
+lista= [int(input("insira uma lista de numeros: "))]
+#lista1 = [1,2,3,4,5,6,7,8,9,10,11]
+soma_lista=sum(lista)
+tamanho_lista=len(lista)
+print("a soma da lista é ",soma_lista)
+print("o tamanho da lista é ",tamanho_lista)
+print("a média dos valores da lista é ", float(soma_lista/tamanho_lista))
 
