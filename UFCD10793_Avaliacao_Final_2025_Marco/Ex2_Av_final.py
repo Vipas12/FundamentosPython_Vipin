@@ -1,6 +1,11 @@
 #Escreve uma função em Python que dada uma palavra retorne o número de vogais nessa palavra.
 
-x=str(input('Digite 1 palavra: '))
-n_vogais=['a','e','i','o','u']
-for in_vogais in x
-    
+#palavra=input('Digite 1 palavra: ')
+palavra="gaaaaaaaas"
+vogais="aeiouAEIOU"
+soma=0
+for i in vogais:
+    conta=palavra.count(i)
+    soma=conta+soma
+print(soma)
+
