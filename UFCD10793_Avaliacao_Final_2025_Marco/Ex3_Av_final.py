@@ -2,6 +2,7 @@
 # a soma dos valores dessa lista, o número de elementos da lista e a media desses valores.
 # Implementa tratamento de exceções no teu código (try…except…else..finally).
 
+
 lista= [int(input("insira uma lista de numeros: "))]
 #lista1 = [1,2,3,4,5,6,7,8,9,10,11]
 soma_lista=sum(lista)
